@@ -10,7 +10,7 @@ public class bai1 {
         System.out.println("Name: " + p2.getName());
         System.out.println("Salary: " + p2.calculateSalary());
     }
-    
+
     interface IEmployee {
         int calculateSalary();
         String getName();
