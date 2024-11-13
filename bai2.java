@@ -113,7 +113,7 @@ public class bai2 {
             return new OrderIterator(order);
         }
     }
-    
+
     public static void main(String[] args) {
         Customer customer1 = new Customer("Ha Noi", "KH01", "Nguyen Van A");
         Customer customer2 = new Customer("Hai Phong", "KH02", "Tran Van B");
