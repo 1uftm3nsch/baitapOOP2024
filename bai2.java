@@ -5,7 +5,6 @@ import java.util.Locale;
 
 public class bai2 {
 
-    // Customer Class
     static class Customer {
         private String address, code, name;
 
@@ -21,7 +20,6 @@ public class bai2 {
         }
     }
 
-    // OrderLine Class
     static class OrderLine {
         private Currency value;
 
@@ -34,7 +32,6 @@ public class bai2 {
         }
     }
 
-    // Order Class
     static class Order {
         private Customer customer;
         private ArrayList<OrderLine> orderLine;
@@ -73,7 +70,6 @@ public class bai2 {
         }
     }
 
-    // OrderIterator Class
     static class OrderIterator implements Iterator<Order> {
         private ArrayList<Order> orders;
         private int index;
@@ -94,7 +90,6 @@ public class bai2 {
         }
     }
 
-    // OrderList Class
     static class OrderList {
         private ArrayList<Order> order;
 
@@ -118,8 +113,7 @@ public class bai2 {
             return new OrderIterator(order);
         }
     }
-
-    // Main method for testing the application
+    
     public static void main(String[] args) {
         Customer customer1 = new Customer("Ha Noi", "KH01", "Nguyen Van A");
         Customer customer2 = new Customer("Hai Phong", "KH02", "Tran Van B");
